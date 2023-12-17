@@ -12,7 +12,7 @@ header > .inner{position: relative; height: 100%; display: flex;align-items: cen
 header > .inner > *{display: inline-block;}
 #logo a{display: block;}
 #logo span{display: flex; align-items: center; gap: 10px; font-size: 1.125rem; font-weight: 500;}
-#logo a:hover span::before{background-image: url(/img/logo_h.png);}
+#logo a:hover span::before{background-image: url(./img/logo_h.png);}
 #logo span::before{display: inline-block; content: "";  background: url(/img/logo.png) no-repeat center / auto 100%; width: 50px; height: 50px;}
 
 nav{position: absolute; left: 50%; width: auto; top: 50%;
