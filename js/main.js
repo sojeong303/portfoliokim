@@ -123,7 +123,7 @@ $(function(){
     //json
     $.ajax({
         type:"GET",
-        url : "/json/portfoliodata.json",
+        url : "json/portfoliodata.json",
         dataType : "json",
         
         success : function(data){
