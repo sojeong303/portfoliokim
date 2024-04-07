@@ -1,0 +1,162 @@
+[
+    {
+        "title": "공동체주택플랫폼",
+        "link" : "https://soco.seoul.go.kr/coHouse/main/main.do",
+        "workperio" : "작업기간 : 1일",
+        "contribution" : "기여도 : 100%",
+        "type": "접근성",
+        "image" :  "../img/work12.jpg",
+        "typeclass" : "wa"
+    },
+    {
+        "title": "국립고궁박물관 - 서브컨텐츠",
+        "link" : "https://www.gogung.go.kr/gogung/main/contents.do?menuNo=800223",
+        "workperio" : "작업기간 : 1일",
+        "contribution" : "기여도 : 100%",
+        "type": "구축",
+        "image" :  "../img/slide09.jpg",
+        "typeclass" : "build"
+    },
+    {
+        "title": "국립고궁박물관 - 서브컨텐츠",
+        "link" : "https://www.gogung.go.kr/gogung/main/contents.do?menuNo=800222",
+        "workperio" : "작업기간 : 1일",
+        "contribution" : "기여도 : 00%",
+        "type": "구축" ,
+        "image" : "../img/slide10.jpg",
+        "typeclass" : "build"
+    },
+    {
+        "title": "2024 세종시즌",
+        "link" : "https://season.sejongpac.or.kr/portal/season/main_2024.do",
+        "workperio" : "작업기간 : 1일",
+        "contribution" : "기여도 : 100%",
+        "type": "구축",
+        "image" : "../img/work11.jpg",
+        "typeclass" : "build"
+    },
+    {
+        "title": "세종문화회관 씽크넥스트23",
+        "link" : "https://www.sejongpac.or.kr/portal/season/syncnext23.do",
+        "workperio" : "작업기간 : 2주",
+        "contribution" : "기여도 : 100%",
+        "type": "구축",
+        "image" : "../img/work02.png",
+        "typeclass" : "build"
+    },
+    {
+        "title": "도봉복지로",
+        "link" : "https://welfare.dobong.go.kr/sso/business.jsp",
+        "workperio" : "작업기간 : 3개월",
+        "contribution" : "기여도 : 100%",
+        "type": "구축",
+        "image" : "../img/work03.png",
+        "typeclass" : "build"
+    },    
+    {
+        "title": "서울대 공과대학",
+        "link" : "https://eng.snu.ac.kr/snu/main/main.do",
+        "workperio" : "작업기간 : 2개월",
+        "contribution" : "기여도 : 100%",
+        "type": "구축",
+        "image" : "../img/work04.png",
+        "typeclass" : "build"
+    },
+    {
+        "title": "국립조선왕조실록박물관",
+        "link" : "https://sillok.gogung.go.kr/sillok/main/main.do",
+        "workperio" : "작업기간 : 1개월",
+        "contribution" : "기여도 : 80%",
+        "type": "구축",
+        "image" : "../img/work05.jpg",
+        "typeclass" : "build"
+    },
+    {
+        "title": "국립생태원",
+        "link" : "https://www.sejongpac.or.kr/portal/main/main.do",
+        "workperio" : "작업내용 : 접근성 작업",
+        "contribution" : "작업날짜 : 2023.07",
+        "type": "접근성",
+        "image" : "../img/work06.png",
+        "typeclass" : "wa"
+    },
+    {
+        "title": "서울문화포털",
+        "link" : "https://culture.seoul.go.kr/culture/main/main.do",
+        "workperio" : "작업내용 : 접근성 작업",
+        "contribution" : "작업날짜 : 2022.10",
+        "type": "접근성",
+        "image" : "../img/work07.png",
+        "typeclass" : "wa"
+    },
+    {
+        "title": "세종문화회관",
+        "link" : "https://www.sejongpac.or.kr/portal/main/main.do",
+        "workperio" : "작업내용 : 접근성 작업",
+        "contribution" : "작업날짜 : 2022.10",
+        "type": "접근성",
+        "image" : "../img/work08.png",
+        "typeclass" : "wa"
+    },
+    {
+        "title": "서울 컨벤션뷰로",
+        "link" : "https://korean.miceseoul.com/index",
+        "workperio" : "작업내용 : 메인 및 컨텐츠 개편",
+        "contribution" : "기여도 : 100%",
+        "type": "유지보수",
+        "image" : "../img/side01.png",
+        "typeclass" : "maint"
+    },
+    {
+        "title": "경희대학교 교육대학원",
+        "link" : "https://edu.khu.ac.kr/edu_hub/user/main/view.do",
+        "workperio" : "작업내용 : 인트로페이지 작업",
+        "contribution" : "기여도 : 100%",
+        "type": "유지보수",
+        "image" : "../img/side02.png",
+        "typeclass" : "maint"
+    },
+    {
+        "title": "경희대학교 교육대학원",
+        "link" : "https://eduseoul.khu.ac.kr/edu_seoul/user/main/view.do",
+        "workperio" : "작업내용 : 메인 개편",
+        "contribution" : "기여도 : 100%",
+        "type": "유지보수",
+        "image" : "../img/side03.png",
+        "typeclass" : "maint"
+    },
+    {
+        "title": "서울문화회관 예술로 동행",
+        "link" : "https://www.sejongpac.or.kr/organization/main/contents.do?menuNo=500074",
+        "workperio" : "작업내용 : 연도별 ajax작업",
+        "contribution" : "기여도 : 100%",
+        "type": "유지보수",
+        "image" : "../img/side04.png",
+        "typeclass" : "maint"
+    },
+    {
+        "title": "산코샤코리아",
+        "link" : "https://www.sankosha.kr/main/",
+        "workperio" : "작업내용 : 플래쉬 제거",
+        "contribution" : "기여도 : 100%",
+        "type": "유지보수",
+        "image" : "../img/side06.png",
+        "typeclass" : "maint"
+    },
+    {
+        "title": "도루코",
+        "link" : "https://jpn.dorcopace.com/",
+        "workperio" : "작업내용 : 유지보수, 제품추가",
+        "type": "유지보수",
+        "image" : "../img/side08.png",
+        "typeclass" : "maint"
+    },
+    {
+        "title": "경희대 경영대학원",
+        "link" : "https://khmba.khu.ac.kr/khmba_kor/user/main/view.do",
+        "workperio" : "작업내용 : 유지보수, 컨텐츠 작업",
+        "type": "유지보수",
+        "image" : "../img/work09.png",
+        "typeclass" : "maint"
+    }
+]

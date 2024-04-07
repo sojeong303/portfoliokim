@@ -90,7 +90,7 @@ h3:after{display: block; content: ''; width: 35px; height: 4px; background-color
 #aboutme_3{padding-bottom: 120px;  transform: translate(0px, 100px); opacity: 0;}
 #aboutme_3 ol{display: flex; gap: 20px; flex-wrap: wrap; row-gap: 2.500rem;}
 #aboutme_3 ol > li{ width: calc(25% - (60px/4)); position: relative; transition: .6s; transition-delay: .025s}
-#aboutme_3 ol > li:nth-child(n+9){display: none;}
+/* #aboutme_3 ol > li:nth-child(n+9){display: none;} */
 
 #aboutme_3 ol > li > a{display: flex; justify-content: center; flex-wrap: wrap; position: relative; height: 260px; border-radius: 10px; overflow: hidden; box-shadow: 3px 3px 13px rgba(0, 0, 0, .5);}
 

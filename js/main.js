@@ -1,8 +1,4 @@
-function mainSlide(){}
 $(function(){
-    // niceScroll
-    //$("html").niceScroll();
-
     //헤더
     var target;
     var menu = $("nav > ul > li > a");
@@ -17,44 +13,6 @@ $(function(){
         $("nav > ul > li > a").removeClass("active");
         $(this).addClass("active");
     });
-
-    // slide_up
-    // var upSliderItem = $('.slide_up'),
-    //     slideCocunt = upSliderItem.find('li').length,
-    //     currentIndex = 0,
-    //     sliderPosition,
-    //     bannerHeight = upSliderItem.height();
-    
-    // setInterval(function(){
-    //     if(currentIndex < slideCocunt - 1){
-    //         currentIndex ++;
-    //     }else{
-    //         currentIndex = 0;
-    //     };
-
-    //     sliderPosition = currentIndex * (-bannerHeight) + "px";
-    //     upSliderItem.find('li').animate({top : sliderPosition}, 350);
-    // }
-    // , 2000);
-
-    // let timer;
-
-    // $(window).on("resize", function(){
-    //     clearTimeout(timer);
-    //     bannerHeight = upSliderItem.height();
-
-    //     timer = setInterval(function(){
-    //         if(currentIndex < slideCocunt - 1){
-    //             currentIndex ++;
-    //         }else{
-    //             currentIndex = 0;
-    //         };
-    
-    //         sliderPosition = currentIndex * (-bannerHeight) + "px";
-    //         upSliderItem.find('li').animate({top : sliderPosition}, 350);
-    //     }
-    //     , 2000);
-    // })
 
     $('.slide_up').slick({
         slidesToShow: 1,
@@ -128,11 +86,11 @@ $(function(){
 
     gsap.to('#aboutme_1 > .inner', {
         scrollTrigger:{
-            trigger: '#aboutme_1',//객체기준범위
-            start: "start center",//시작 지점
-            end: "10% center",//끝 지점
-            scrub: 1,//부드러운 스크러빙
-            markers: false,//개발가이드선
+            trigger: '#aboutme_1',
+            start: "start center",
+            end: "10% center",
+            scrub: 1,
+            markers: false,
         },
         opacity: 1,
         y:0
@@ -152,22 +110,67 @@ $(function(){
 
     gsap.to('#aboutme_3', {
         scrollTrigger:{
-            trigger: '#aboutme_3',//객체기준범위
-            start: "top center",//시작 지점
-            end: "top center",//끝 지점
-            scrub: 1,//부드러운 스크러빙
-            markers: false,//개발가이드선
+            trigger: '#aboutme_3',
+            start: "top center",
+            end: "top center",
+            scrub: 1,
+            markers: false,
         },
         opacity: 1,
         y:0
     });
   
-    //프로젝트 더보기 버튼
-    $(".v_more").on("click", function(){
-        $("#aboutme_3 ol > li:hidden").slice(0, 4).show();
-        if($("#aboutme_3 ol > li:hidden").length == 0){
-            $(".v_more").hide();
-        };
+    //json
+    $.ajax({
+        type:"GET",
+        url : "/json/portfoliodata.json",
+        dataType : "json",
+        
+        success : function(data){
+            var itemList = $('.pf_list'),
+            itemLenght = data.length;
+            
+            function getDate(showminCont, showmaxCont){
+                for(var i = showminCont; i < showmaxCont; i++){
+                    address = `<li>
+                    <a href="${data[i].link}" title="새 창 열기" target="_blank">
+                        <img src="${data[i].image}" alt="${data[i].title}">
+                        <div class="text">
+                            <p>${data[i].workperio}</p>
+                            <p>${data[i].contribution}</p>
+                        </div>
+                    </a>
+                    <div class="tit_w">
+                        <span class="label ${data[i].typeclass}">${data[i].type}</span>
+                        <p class="tit">${data[i].title}</p>
+                    </div>
+                </li>`;
+                    itemList.append(address);
+                };
+            }; 
+
+            getDate(0, 8);
+            const moreBtncount = Math.ceil(itemLenght/4),
+                maxMorebtncount = moreBtncount-2;
+            var count = 1;
+            
+            $(".v_more").on("click", function(){
+                count++;
+                if(count < maxMorebtncount){
+                    getDate(9, 13);
+                    
+                }else if(count = maxMorebtncount){
+                    getDate(14, itemLenght);
+                    $(".v_more").hide();
+                };
+
+                console.log(count)
+            });
+        },
+        error : function(request,status,error){
+            console.log("code:"+request.status+"\n"+"message:"+request.responseText+"\n"+"error:"+error);
+        }
     });
+
 });
 
