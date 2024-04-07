@@ -5,7 +5,7 @@
         "workperio" : "작업기간 : 1일",
         "contribution" : "기여도 : 100%",
         "type": "접근성",
-        "image" :  "../img/work12.jpg",
+        "image" :  "img/work12.jpg",
         "typeclass" : "wa"
     },
     {
@@ -14,7 +14,7 @@
         "workperio" : "작업기간 : 1일",
         "contribution" : "기여도 : 100%",
         "type": "구축",
-        "image" :  "../img/slide09.jpg",
+        "image" :  "img/slide09.jpg",
         "typeclass" : "build"
     },
     {
@@ -23,7 +23,7 @@
         "workperio" : "작업기간 : 1일",
         "contribution" : "기여도 : 00%",
         "type": "구축" ,
-        "image" : "../img/slide10.jpg",
+        "image" : "img/slide10.jpg",
         "typeclass" : "build"
     },
     {
@@ -32,7 +32,7 @@
         "workperio" : "작업기간 : 1일",
         "contribution" : "기여도 : 100%",
         "type": "구축",
-        "image" : "../img/work11.jpg",
+        "image" : "img/work11.jpg",
         "typeclass" : "build"
     },
     {
@@ -41,7 +41,7 @@
         "workperio" : "작업기간 : 2주",
         "contribution" : "기여도 : 100%",
         "type": "구축",
-        "image" : "../img/work02.png",
+        "image" : "img/work02.png",
         "typeclass" : "build"
     },
     {
@@ -50,7 +50,7 @@
         "workperio" : "작업기간 : 3개월",
         "contribution" : "기여도 : 100%",
         "type": "구축",
-        "image" : "../img/work03.png",
+        "image" : "img/work03.png",
         "typeclass" : "build"
     },    
     {
@@ -59,7 +59,7 @@
         "workperio" : "작업기간 : 2개월",
         "contribution" : "기여도 : 100%",
         "type": "구축",
-        "image" : "../img/work04.png",
+        "image" : "img/work04.png",
         "typeclass" : "build"
     },
     {
@@ -68,7 +68,7 @@
         "workperio" : "작업기간 : 1개월",
         "contribution" : "기여도 : 80%",
         "type": "구축",
-        "image" : "../img/work05.jpg",
+        "image" : "img/work05.jpg",
         "typeclass" : "build"
     },
     {
@@ -77,7 +77,7 @@
         "workperio" : "작업내용 : 접근성 작업",
         "contribution" : "작업날짜 : 2023.07",
         "type": "접근성",
-        "image" : "../img/work06.png",
+        "image" : "img/work06.png",
         "typeclass" : "wa"
     },
     {
@@ -86,7 +86,7 @@
         "workperio" : "작업내용 : 접근성 작업",
         "contribution" : "작업날짜 : 2022.10",
         "type": "접근성",
-        "image" : "../img/work07.png",
+        "image" : "img/work07.png",
         "typeclass" : "wa"
     },
     {
@@ -95,7 +95,7 @@
         "workperio" : "작업내용 : 접근성 작업",
         "contribution" : "작업날짜 : 2022.10",
         "type": "접근성",
-        "image" : "../img/work08.png",
+        "image" : "img/work08.png",
         "typeclass" : "wa"
     },
     {
@@ -104,7 +104,7 @@
         "workperio" : "작업내용 : 메인 및 컨텐츠 개편",
         "contribution" : "기여도 : 100%",
         "type": "유지보수",
-        "image" : "../img/side01.png",
+        "image" : "img/side01.png",
         "typeclass" : "maint"
     },
     {
@@ -113,7 +113,7 @@
         "workperio" : "작업내용 : 인트로페이지 작업",
         "contribution" : "기여도 : 100%",
         "type": "유지보수",
-        "image" : "../img/side02.png",
+        "image" : "img/side02.png",
         "typeclass" : "maint"
     },
     {
@@ -122,7 +122,7 @@
         "workperio" : "작업내용 : 메인 개편",
         "contribution" : "기여도 : 100%",
         "type": "유지보수",
-        "image" : "../img/side03.png",
+        "image" : "img/side03.png",
         "typeclass" : "maint"
     },
     {
@@ -131,7 +131,7 @@
         "workperio" : "작업내용 : 연도별 ajax작업",
         "contribution" : "기여도 : 100%",
         "type": "유지보수",
-        "image" : "../img/side04.png",
+        "image" : "img/side04.png",
         "typeclass" : "maint"
     },
     {
@@ -140,7 +140,7 @@
         "workperio" : "작업내용 : 플래쉬 제거",
         "contribution" : "기여도 : 100%",
         "type": "유지보수",
-        "image" : "../img/side06.png",
+        "image" : "img/side06.png",
         "typeclass" : "maint"
     },
     {
@@ -148,7 +148,7 @@
         "link" : "https://jpn.dorcopace.com/",
         "workperio" : "작업내용 : 유지보수, 제품추가",
         "type": "유지보수",
-        "image" : "../img/side08.png",
+        "image" : "img/side08.png",
         "typeclass" : "maint"
     },
     {
@@ -156,7 +156,7 @@
         "link" : "https://khmba.khu.ac.kr/khmba_kor/user/main/view.do",
         "workperio" : "작업내용 : 유지보수, 컨텐츠 작업",
         "type": "유지보수",
-        "image" : "../img/work09.png",
+        "image" : "img/work09.png",
         "typeclass" : "maint"
     }
 ]
